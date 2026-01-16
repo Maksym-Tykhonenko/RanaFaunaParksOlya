@@ -332,7 +332,7 @@ export default function RootNavigator() {
     // чекаємо, поки прочитаємо AsyncStorage
     if (!isDataReady) return;
 
-    // якщо вже є route або клоака вже проходила успішно – нічого не робимо
+    // якщо вже є route або клоака вже проходила успішно –нічого не робимо
     if (route || cloacaPass) return;
 
     const checkUrl = `${INITIAL_URL}${URL_IDENTIFAIRE}`;
